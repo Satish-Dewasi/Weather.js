@@ -51,7 +51,7 @@ body {
 .container .header .location {
     font-size: 13px;
     width: 30%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .container .header .location span {
@@ -64,7 +64,7 @@ body {
     width: 60%;
     font-size: 18px;
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -73,7 +73,7 @@ body {
     width: 10%;
     display: block;
     cursor: pointer;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .container .header .search i {
