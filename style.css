@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Ubuntu&display=swap');
+/*
+font-family: 'Roboto',sans-serif;
+font-family: 'Ubuntu',sans-serif;
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100%;
+    background: #62b5e6;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+
+    width: 350px;
+    height: 85vh;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+
+}
+
+/*###############*/
+
+.container .header {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: top 2s ease;
+}
+
+.container .header .location {
+    font-size: 13px;
+    width: 30%;
+}
+
+.container .header .location span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+
+}
+
+.container .header .search {
+    width: 60%;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.container .header .menu {
+    padding-left: 1%;
+    width: 10%;
+    display: block;
+    cursor: pointer;
+}
+
+.container .header .search i {
+    cursor: pointer;
+}
+
+.container .header .search input {
+    width: 130px;
+    height: 25px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    border: none;
+    padding: 4px;
+}
+
+.container .header .search input:focus {
+    outline: none;
+    border: none;
+}
+
+
+.toggleON {
+    display: block;
+}
+
+.toggleOFF {
+    display: none;
+}
+
+
+
+/*###############*/
+/*###############*/
+
+
+
+.container .secondDiv {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container .secondDiv .temp {
+    width: 45%;
+    height: 100%;
+    padding-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 76px;
+    font-weight: 900;
+}
+
+.container .secondDiv .details {
+    border-left: 2px solid #a0a6aa;
+    width: 55%;
+    height: 50%;
+    padding-left: 8%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    color: #818385;
+}
+
+.container .secondDiv .details #weather {
+
+    font-size: 20px;
+    font-weight: 550;
+    color: #312e2e;
+}
+
+/*###############*/
+/*###############*/
+/*###############*/
+
+.container .imageDiv {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*###############*/
+/*###############*/
+/*###############*/
+
+.container .lastDiv {
+    margin-top: 2%;
+    width: 98%;
+    height: 15%;
+    border-radius: 20px;
+    border: 3px solid #d2d6d8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.container .lastDiv .humidity {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.container .lastDiv .humidity .name {
+    font-size: 15px;
+    color: #393b3d;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .lastDiv .humidity .data {
+    font-size: 16px;
+    color: #101011;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
